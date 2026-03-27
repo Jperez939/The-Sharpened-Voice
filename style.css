@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    font-family: "Raleway";
+    font-family: "Montserrat", sans-serif;
     background-color: #f9f9fb;
-    color: #222;
+    color: #f9f9fb;
     display: flex;
     justify-content: center;
 }
@@ -12,26 +12,21 @@ body {
     padding: 60px 20px;
 }
 
-h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
 h2 {
-    font-size: 1.4rem;
-    font-weight: 400;
-    color: #666;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #bcb3a7;
     margin-bottom: 40px;
+    text-align: center;
 }
 p {
     line-height: 1.7;
-    font-size: 1.05rem;
+    font-size: 1.0rem;
     margin-bottom: 20px;
 }
 
 .card {
-    background: white;
+    background: #69a3a6;
     border-radius: 18px;
     padding: 30px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
@@ -66,4 +61,10 @@ footer {
     border-radius: 12px;
     font-size: 0.95rem;
     color: #444;
+}
+
+.logo-img {
+      display: block;
+      max-width: 250px;
+      margin: 0 auto 10px auto;
 }
